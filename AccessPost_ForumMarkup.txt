@@ -1,4 +1,4 @@
-[b]Preperation:[/b]
+[b]Preparation:[/b]
 [list=a]
 [*][b]Prevent OTA update[/b]
 In the topmost visible level of USB storage, add the OTA blocking directory name.
@@ -90,26 +90,103 @@ Only the jailbreak and the components of the "Jail Break Survival Code" is auto-
 
 = = = =
 
-[url=https://www.adrive.com/public/9g9eX9/Update_KUALBooklet_v2.7_koa2_nomax_install.bin][/url]
-[url=https://www.adrive.com/public/3VEpNg/Update_KUALBooklet_v2.7_koa2_nomax_uninstall.bin][/url]
-[url=https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.bin][/url]
-
-[url=https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin][/url]
-
-[url=https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin][/url]
-[url=https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin][/url]
-
-[url=https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin][/url]
-[url=https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin][/url]
-
-[url=https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86_64.zip][/url]
-Windows 64bit native - Not yet available
-[url=https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip][/url]
-
-[url=https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip][/url]
-
-[url=https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin][/url]
-[url=https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin][/url]
-
-[url=https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin][/url]
-
+[b]Experimental KOA2 Packages:[/b]
+All of these packages are built to install using UYK (Update Your Kindle) menu entry.
+The Mobileread Package Installer (MrPI) is not required for installing these packages.
+[list]
+[*][b]Required[/b]
+[list]
+[*][b]KUAL Launcher[/b]
+Provides the application launcher menu.
+[list]
+[*]Install:
+[url=https://www.adrive.com/public/9g9eX9/Update_KUALBooklet_v2.7_koa2_nomax_install.bin]KUAL Booklet Install[/url]
+[*]Status: Tested, working
+[*]Uninstall:
+[url=https://www.adrive.com/public/3VEpNg/Update_KUALBooklet_v2.7_koa2_nomax_uninstall.bin]KUAL Booklet Uninstall[/url]
+[*]Status: Not Tested
+[/list]
+[/list]
+[*][b]Suggested[/b]
+[list]
+[*][b]Rescue Pack[/b]
+Adds SSH server to "Diags" system and restores the detection of: "ENABLE_DIAGS" in top of USB storage.
+[list]
+[*]Install:
+[url=https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin]RP Install[/url]
+[*]Status: Not Tested
+[*]Uninstall: Never Provided
+[*]Status: N/A
+[/list]
+[*][b]Coward's Rescue Pack[/b]
+An optional add-on to the Rescue Pack.
+Provides control of Rescue Pack by detecting USB cable connection.
+[list]
+[*]Install:
+[url=https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin]CRP Install[/url]
+[*]Status: Not Tested
+[*]Uninstall:
+[url=https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin]CRP Uninstall[/url]
+[*]Status: Not Tested
+[/list]
+[/list]
+[*][b]Available[/b]
+[list]
+[*][b]USB Networking[/b]
+Includes both ssh and telnet servers.
+Lots of bonus items also included.
+[list]
+[*]Install:
+[url=https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin]USBnetworking Install[/url]
+[*]Status: Tested, working
+[*]Uninstall:
+[url=https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin]USBnetworking Uninstall[/url]
+[*]Status: Not Tested
+[/list]
+[/list]
+[*][b]Packaging[/b]
+Tools and utilities for examination and maintenance of packaging.
+[list]
+[*][b]KindleTool binaries[/b]
+KindleTool both creates new and opens existing "update_*.bin" packages.
+Both those of Amazon/Lab126 and of Mobileread.
+[list]
+[*]Linux x86-64:
+[url=https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86_64.zip]KindleTool, Linux-x86_64[/url]
+[*]Status: Working, in-use
+[*]Windows native x86_64:
+[*]Status: Not yet available
+[/list]
+[*][b]Batch Re-packaging Script[/b]
+Script contains a table format listing of Mobileread "update_*.bin" packages and allows the selective re-packaging of the listed packages.
+Packaging parameters currently set to generate these koa2_nomax type packages.
+The only documentation is the comments in the script.
+[list]
+[*]Script:
+[url=https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip]mkpgs batch re-packaging script[/url]
+[*]Status: Working, in-use
+[/list]
+[/list]
+[*][b]Historical Interest Only[/b]
+[list]
+[*][b]Old factory images[/b]
+[list]
+[*]'Main' system:
+[url=https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin]update_main_5.9.0.5.1-007[/url]
+[*]'Main' system:
+[url=https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin]update_main_5.9.0.5.1-008[/url]
+[*]'Diags' system:
+[url=https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin]update_diags_001.059[/url]
+[/list]
+[/list]
+[*][b]KUAL Extensions[/b]
+[list]
+[*][b]kTerm[/b]
+Kindle Terminal
+[list]
+[*]Archive:
+[url=https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip]kTerm[/url]
+[*]Status: Not tested.
+[/list]
+[/list]
+[/list]
