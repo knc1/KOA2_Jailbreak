@@ -1,0 +1,82 @@
+Preperation:
+
+    Prevent OTA update
+    In the topmost visible level of USB storage, add the OTA blocking directory name.
+    The blocker directory is named:
+    update.bin.tmp.partial
+    Use that exact name, no additional extension.
+    Required
+        Register the Kindle
+        Without registration, you can not access the UYK (Update Your Kindle) menu entry.
+        All of these experimental packages install with UYK, using MrPI is not required.
+    Recommended
+    The following changes are all in support of recovering the Kindle should start-up problems occur.
+    Each of them can prevent the export of USB storage until a touch screen action is taken.
+    But the problems occur before the touch screen is up and working.
+        Remove any pass-code protection.
+        Remove any parental controls.
+        Have Special Offers removed.
+    Test if Kindle can be jail broken with firmware it shipped with.
+    Note: Firmware 5.9.2 can not (yet) be jail broken.
+    Download:
+    Device Jail Break
+    DO NOT let your PC open that archive or otherwise convert it to a "safe" archive.
+    Owners of MacOS systems should be aware that the default settings will open and convert this archive to a "safe" archive, which prevents it from working as intended.
+        Place in topmost visible level of USB storage.
+        Remove USB cable.
+        In search bar of home screen, enter:
+        ;installHtml
+        That semi-colon is part of the command and the command is case sensitive.
+        Did you have a "JailBroken" document appear on your Kindle?
+            Yes it did appear:
+            The device jail break is now installed, you can skip the following step to install a "Factory Use Only" firmware build.
+            No, if did not appear (be sure, use your pc to look for it in /documents folder):
+            You will have to install a "Factory Use Only" firmware build as described below.
+
+
+Install "Factory Use Only" firmware build:
+If the "JailBroken" document showed up on your Kindle when you did the last item in the above section, you may skip this section.
+
+    Replace your "Customer Use" firmware build with a "Factory Use Only" firmware build.
+    In this case, the firmware version numbers before and after this step are not significant.
+    The use of the word "Update" means the label on the button in the settings menu, it does not describe the action performed.
+        Download the firmware that was intend to only be used on the factory production line:
+        Factory Use Only Image
+        Place in topmost visible level of USB storage.
+        Remove USB cable
+        Home -> Menu -> Settings -> Menu -> Update (your Kindle)
+        Wait.
+        Do not panic, this firmware will often required as long as 5 minutes to install.
+    Install the device jail break:
+    Note: Firmware 5.9.2 can not (yet) be jail broken.
+    Download:
+    Device Jail Break
+    DO NOT let your PC open that archive or otherwise convert it to a "safe" archive.
+    Owners of MacOS systems should be aware that the default settings will open and convert this archive to a "safe" archive, which prevents it from working as intended.
+        Place in topmost visible level of USB storage.
+        Remove USB cable.
+        In search bar of home screen, enter:
+        ;installHtml
+        That semi-colon is part of the command and the command is case sensitive.
+        Did you have a "JailBroken" document appear on your Kindle?
+            Yes it did appear:
+            The device jail break is now installed. It is alright to continue.
+            No, if did not appear (be sure, use your pc to look for it in /documents folder):
+            Something unexpected has gone wrong, PM for help.
+
+
+Install the "Jailbreak Survial Code":
+This installs both the "Bridge Code" that auto-reinstalls the jailbreak and it installs the application keys required to run some of the add-in applications.
+Note:This step should be repeated after every change in the registration status.
+
+Jail Break Survival Code - Not yet available
+
+= = = =
+
+Any other *.bin package used MUST be re-installed after an Amazon update!
+Only the jailbreak and the components of the "Jail Break Survival Code" is auto-reinstalled.
+
+= = = =
+
+
+
