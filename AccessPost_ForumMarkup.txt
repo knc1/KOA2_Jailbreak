@@ -163,7 +163,7 @@ Packaging parameters currently set to generate these koa2_nomax type packages.
 The only documentation is the comments in the script.
 [list]
 [*]Script:
-[url=https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip]mkpgs batch re-packaging script[/url]
+[url=https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip]mkpkgs batch re-packaging script[/url]
 [*]Status: Working, in-use
 [/list]
 [/list]
