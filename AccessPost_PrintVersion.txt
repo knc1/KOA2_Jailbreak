@@ -8,6 +8,7 @@
     Required
         Register the Kindle
         Without registration, you can not access the UYK (Update Your Kindle) menu entry.
+        Note: This varies with firmware version, some allow, some do not allow.
         All of these experimental packages install with UYK, using MrPI is not required.
     Recommended
     The following changes are all in support of recovering the Kindle should start-up problems 
@@ -75,8 +76,15 @@ Install the "Jailbreak Survial Code":
 This installs both the "Bridge Code" that auto-reinstalls the jailbreak and it installs the 
 application keys required to run some of the add-in applications.
 Note:This step should be repeated after every change in the registration status.
+Download:
+Jailbreak Survial Code
+This is also refered to as the "hotfix" package.
 
-Jail Break Survival Code - Not yet available
+    Place in topmost visible level of USB storage.
+    Remove USB cable.
+    Home -> Menu -> Settings -> Menu -> UYK (Update Your Kindle)
+
+
 
 = = = =
 
@@ -94,17 +102,18 @@ The Mobileread Package Installer (MrPI) is not required for installing these pac
         Provides the application launcher menu.
             Install:
             KUAL Booklet Install
-            Status: Tested, working
+            Status: Tested, Some Problems Reported
             Uninstall:
             KUAL Booklet Uninstall
             Status: Not Tested
     Suggested
         Rescue Pack
-        Adds SSH server to "Diags" system and restores the detection of: "ENABLE_DIAGS" in 
-        top of USB storage.
+        Adds SSH server to "Diags" system and restores the detection of: "ENABLE_DIAGS" 
+        in top of USB storage.
             Install:
             RP Install
-            Status: Not Tested
+            Status: Tested - Broken - Do Not Use
+            A script to recover from a broken RP installation is in the works.
             Uninstall: Never Provided
             Status: N/A
         Coward's Rescue Pack
@@ -137,12 +146,12 @@ The Mobileread Package Installer (MrPI) is not required for installing these pac
             Windows native x86_64:
             Status: Not yet available
         Batch Re-packaging Script
-        Script contains a table format listing of Mobileread "update_*.bin" packages and 
-        allows the selective re-packaging of the listed packages.
+        Script contains a table format listing of Mobileread "update_*.bin" packages 
+        and allows the selective re-packaging of the listed packages.
         Packaging parameters currently set to generate these koa2_nomax type packages.
         The only documentation is the comments in the script.
             Script:
-            mkpgs batch re-packaging script
+            mkpkgs batch re-packaging script
             Status: Working, in-use
     Historical Interest Only
         Old factory images

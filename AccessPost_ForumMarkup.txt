@@ -9,6 +9,7 @@ Use that exact name, no additional extension.
 [list]
 [*][b]Register the Kindle[/b]
 Without registration, you can not access the UYK (Update Your Kindle) menu entry.
+[b]Note:[/b] This varies with firmware version, some allow, some do not allow.
 All of these experimental packages install with UYK, using MrPI is not required.
 [/list]
 [*][b]Recommended[/b]
@@ -80,8 +81,14 @@ Something unexpected has gone wrong, PM for help.
 [b]Install the "Jailbreak Survial Code":[/b]
 This installs both the "Bridge Code" that auto-reinstalls the jailbreak and it installs the application keys required to run some of the add-in applications.
 [b]Note:[/b]This step should be repeated after every change in the registration status.
-
-Jail Break Survival Code - Not yet available
+Download:
+[url=https://www.adrive.com/public/xpYGey/Update_jailbreak_hotfix_1.15_koa2.bin]Jailbreak Survial Code[/url]
+This is also refered to as the "hotfix" package.
+[list=1]
+[*]Place in topmost visible level of USB storage.
+[*]Remove USB cable.
+[*]Home -> Menu -> Settings -> Menu -> UYK (Update Your Kindle)
+[/list]
 
 = = = =
 
@@ -101,7 +108,7 @@ Provides the application launcher menu.
 [list]
 [*]Install:
 [url=https://www.adrive.com/public/9g9eX9/Update_KUALBooklet_v2.7_koa2_nomax_install.bin]KUAL Booklet Install[/url]
-[*]Status: Tested, working
+[*]Status: Tested, [b]Some Problems Reported[/b]
 [*]Uninstall:
 [url=https://www.adrive.com/public/3VEpNg/Update_KUALBooklet_v2.7_koa2_nomax_uninstall.bin]KUAL Booklet Uninstall[/url]
 [*]Status: Not Tested
@@ -114,7 +121,8 @@ Adds SSH server to "Diags" system and restores the detection of: "ENABLE_DIAGS" 
 [list]
 [*]Install:
 [url=https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin]RP Install[/url]
-[*]Status: Not Tested
+[*]Status: Tested - [b]Broken - Do Not Use[/b]
+A script to recover from a broken RP installation is in the works.
 [*]Uninstall: Never Provided
 [*]Status: N/A
 [/list]
