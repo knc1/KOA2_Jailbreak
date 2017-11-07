@@ -1,0 +1,37 @@
+https://www.adrive.com/public/U3AVtU/main-htmlviewer.tar.gz
+https://www.adrive.com/public/RyfAaK/update_kindle_oasis_9th_factory_5.9.0.6.bin
+Jail Break Survial Code - Not yet available
+https://www.adrive.com/public/9g9eX9/Update_KUALBooklet_v2.7_koa2_nomax_install.bin
+https://www.adrive.com/public/3VEpNg/Update_KUALBooklet_v2.7_koa2_nomax_uninstall.bin
+https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.bin
+
+https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin
+
+https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin
+https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin
+
+https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin
+https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin
+
+https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86_64.zip
+Windows 64bit native - Not yet available
+https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip
+
+https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip
+
+https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin
+https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin
+
+https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin
+
+# https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.0.6.bin
+# https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.0.5.1.bin
+
+[list]
+[*] Something here
+Text here
+[list]
+[*] Specific
+Text here
+[/list]
+[/list]
