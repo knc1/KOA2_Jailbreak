@@ -109,6 +109,9 @@ Provides the application launcher menu.
 [*]Install:
 [url=https://www.adrive.com/public/9g9eX9/Update_KUALBooklet_v2.7_koa2_nomax_install.bin]KUAL Booklet Install[/url]
 [*]Status: Tested, [b]Some Problems Reported[/b]
+[list]
+[*]coplate: "Works for me."
+[/list]
 [*]Uninstall:
 [url=https://www.adrive.com/public/3VEpNg/Update_KUALBooklet_v2.7_koa2_nomax_uninstall.bin]KUAL Booklet Uninstall[/url]
 [*]Status: Not Tested
@@ -146,7 +149,10 @@ Lots of bonus items also included.
 [list]
 [*]Install:
 [url=https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin]USBnetworking Install[/url]
-[*]Status: Tested, working
+[*]Status: Tested, working [b]with some problems[/b]
+[list]
+[*]coplate: "stopping usbnetworking (with KUAL) crashes the Kindle, requires a reboot"
+[/list]
 [*]Uninstall:
 [url=https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin]USBnetworking Uninstall[/url]
 [*]Status: Not Tested
