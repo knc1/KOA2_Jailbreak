@@ -144,6 +144,8 @@ Provides control of Rescue Pack by detecting USB cable connection.
 [*][b]Available[/b]
 [list]
 [*][b]USB Networking[/b]
+[b]Note:[/b] If running the "Factory Firmware" build, you may already have USBnetworking installed.
+Details of how to use it (such as username:password pairs) are still to be discovered.
 Includes both ssh and telnet servers.
 Lots of bonus items also included.
 [list]
