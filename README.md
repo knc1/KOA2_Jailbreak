@@ -58,7 +58,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
 
     <span>Yes it did appear:</span>  
     The device jail break is now installed, you can skip the installation of a *Factory Use Only* firmware build.  
-    Go to the installation of the Device Jailbreak.
+    Go to the installation of the Jailbreak Survival Code.
 
     <span>No it did not appear:</span>  
     To be certain, use your PC to look for it in the /documents folder. In this case you will have to install a *Factory Use Only* firmware build as described next.
@@ -66,7 +66,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
 Install a *Factory Use Only* firmware build
 ===========================================
 
-If the *JailBroken* document showed up on your Kindle when you did current firmware check above, you may skip this section.
+If the *JailBroken* document showed up on your Kindle when you did current firmware check above, you may skip to installing the Jailbreak Survival Code.
 
 Replacing your *Customer Use* firmware build with a *Factory Use Only* firmware.
 --------------------------------------------------------------------------------
@@ -114,7 +114,7 @@ The device jail break is now installed, continue with the next section.
 To be certain, use your PC to look for it in the /documents folder.  
 In this case something unexpected has happened, contact the developers.
 
-Install the Jailbreak Survial Code
+Install the Jailbreak Survival Code
 ==================================
 
 This package has also been known as the *hotfix* package.
@@ -123,7 +123,7 @@ This installs both the Bridge Code that auto-reinstalls the device jailbreak and
 
 Note: This step may have to be repeated after every change in registration status.
 
-1.  Download the [Jailbreak Survial Code](https://www.adrive.com/public/xpYGey/Update_jailbreak_hotfix_1.15_koa2.bin)
+1.  Download the [Jailbreak Survival Code](https://www.adrive.com/public/xpYGey/Update_jailbreak_hotfix_1.15_koa2.bin)
 
 2.  Place in the topmost visible level of USB storage.
 
