@@ -93,7 +93,9 @@ Note: Customer firmware 5.9.2 can not (yet) be jail broken.
 
 -   Download [Device Jail Break](https://www.adrive.com/public/U3AVtU/main-htmlviewer.tar.gz)
 
-Do not let your PC open that archive or otherwise convert it to a *safe* archive. The archive content structure makes it a tar bomb, it is suppose to be a tar bomb, that is what makes it work. Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> systems should be aware that the default settings will open and convert this archive to a *safe* archive, which prevents it from working as intended.
+Do not let your PC open that archive or otherwise convert it to a *safe* archive.  
+The archive content structure makes it a tar bomb, it is suppose to be a tar bomb, that is what makes it work.  
+Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> systems should be aware that the default settings will open and convert this archive to a *safe* archive, which prevents it from working as intended.
 
 1.  Place in topmost visible level of USB storage.
 
@@ -109,7 +111,8 @@ Do not let your PC open that archive or otherwise convert it to a *safe* archive
 The device jail break is now installed, continue with the next section.
 
 <span>No it did not appear:</span>  
-To be certain, use your PC to look for it in the /documents folder. In this case something unexpected has happened, contact the developers.
+To be certain, use your PC to look for it in the /documents folder.  
+In this case something unexpected has happened, contact the developers.
 
 Install the Jailbreak Survial Code
 ==================================

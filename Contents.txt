@@ -1,0 +1,4 @@
+The file: KOA2_Jailbreak.lyx is the master file, all others are derived.
+The KOA2_Jailbreak.tex file is the intermediary between LyX and pandoc.
+The README.md and the markdown_github/KOA2_Jailbreak.md are the same file, with a bit of hand editing.
+The KOA2_Jailbreak.pdf is probably the best looking, and easiest to read of all of them.
