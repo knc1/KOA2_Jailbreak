@@ -58,18 +58,18 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
 
     <span>Yes it did appear:</span>  
     The device jail break is now installed, you can skip the installation of a *Factory Use Only* firmware build.  
-    Go to the installation of the Device Jailbreak.
+    Go to the installation of the [Jailbreak Survival Code](#install-the-jailbreak-survival-code).
 
     <span>No it did not appear:</span>  
-    To be certain, use your PC to look for it in the /documents folder. In this case you will have to install a *Factory Use Only* firmware build as described next.
+    To be certain, use your PC to look for it in the /documents folder.  
+    In this case you will have to install a *Factory Use Only* firmware build as described next.
 
 Install a *Factory Use Only* firmware build
 ===========================================
 
-If the *JailBroken* document showed up on your Kindle when you did current firmware check above, you may skip this section.
+If the *JailBroken* document showed up on your Kindle when you did current firmware check above, you may skip directly to [Jailbreak Survival Code](#install-the-jailbreak-survival-code)
 
-Replacing your *Customer Use* firmware build with a *Factory Use Only* firmware.
---------------------------------------------------------------------------------
+#### Replacing your *Customer Use* firmware build with a *Factory Use Only* firmware.
 
 In this case, the firmware version numbers before and after this step are not significant.
 
@@ -105,7 +105,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
     ;installHtml
     The semi-colon is part of the command and the command is case sensitive.
 
-4.  \[enu:Did-you-have-1\]Did you have a *JailBroken* document appear on your Kindle?
+4.  Did you have a *JailBroken* document appear on your Kindle?
 
 <span>Yes it did appear:</span>  
 The device jail break is now installed, continue with the next section.
@@ -114,7 +114,7 @@ The device jail break is now installed, continue with the next section.
 To be certain, use your PC to look for it in the /documents folder.  
 In this case something unexpected has happened, contact the developers.
 
-Install the Jailbreak Survial Code
+Install the Jailbreak Survival Code
 ==================================
 
 This package has also been known as the *hotfix* package.
@@ -123,7 +123,7 @@ This installs both the Bridge Code that auto-reinstalls the device jailbreak and
 
 Note: This step may have to be repeated after every change in registration status.
 
-1.  Download the [Jailbreak Survial Code](https://www.adrive.com/public/xpYGey/Update_jailbreak_hotfix_1.15_koa2.bin)
+1.  Download the [Jailbreak Survival Code](https://www.adrive.com/public/xpYGey/Update_jailbreak_hotfix_1.15_koa2.bin)
 
 2.  Place in the topmost visible level of USB storage.
 
@@ -178,62 +178,46 @@ Suggested
 <span>Rescue Pack</span>  
 Adds SSH server to Diags system and restores the detection of ENABLE\_DIAGS in the topmost level of USB storage.
 
-<span>Release post:</span>  
-[Rescue Pack for Paperwhite and Touch](https://www.mobileread.com/forums/showthread.php?t=195670)
+-   Release post: [Rescue Pack for Paperwhite and Touch](https://www.mobileread.com/forums/showthread.php?t=195670)
 
-<span>Install:</span>  
-[Rescue Pack install](https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin)
+-   Install: [Rescue Pack install](https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin)
 
-<span>Status:</span>  
-Tested, Broken, Do Not Use
+-   Status: Tested, **Broken, Do Not Use**
 
-<span>Uninstall:</span>  
-Never provided.
+-   Uninstall: Never provided.
 
-<span>Status:</span>  
-N/A
+-   Status: N/A
 
 <span>Coward’s Rescue Pack</span>  
 Optional add-on to the Rescue Pack. Provides control of Rescue Pack by detecting USB cable connection.
 
-<span>Release post:</span>  
-[Coward’s Rescue Pack, a Rescue Pack add-on](https://www.mobileread.com/forums/showthread.php?t=232507)
+-   Release post: [Coward’s Rescue Pack, a Rescue Pack add-on](https://www.mobileread.com/forums/showthread.php?t=232507)
 
-<span>Install:</span>  
-[Coward’s Rescue Pack install](https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin)
+-   Install: [Coward’s Rescue Pack install](https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin)
 
-<span>Status:</span>  
-Not tested.
+-   Status: Not tested.
 
-<span>Uninstall:</span>  
-[Coward’s Rescue Pack uninstall](https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin)
+-   Uninstall: [Coward’s Rescue Pack uninstall](https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin)
 
-<span>Status:</span>  
-Not tested.
+-   Status: Not tested.
 
 Available
 ---------
 
 <span>USB Networking</span>  
-Includes both ssh and telnet servers. Many bonus items also included. Note: The Amazon/Lab126 version may be included in some Factory Use firmware builds. Detail undetermined at this time.
+Includes both ssh and telnet servers. Many bonus items also included. Note: The Amazon/Lab126 version may be included in some Factory Use firmware builds. Details undetermined at this time.
 
-<span>Release post:</span>  
-[USB Networking](https://www.mobileread.com/forums/showthread.php?t=186645)
+-   Release post: [USB Networking](https://www.mobileread.com/forums/showthread.php?t=186645)
 
-<span>Install:</span>  
-[USB Networking install](https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin)
+-   Install: [USB Networking install](https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin)
 
-<span>Status:</span>  
-Tested, working with some problems
+-   Status: Tested, working with some problems
 
-<span>coplate:</span>  
-“stopping usbnetworking (with KUAL) crashes Kindle, requires a reboot”
+    -   coplate: “stopping usbnetworking (with KUAL) crashes Kindle, requires a reboot”
 
-<span>Uninstall:</span>  
-[USB Networking uninstall](https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin])
+-   Uninstall: [USB Networking uninstall](https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin])
 
-<span>Status:</span>  
-Not tested.
+-   Status: Not tested.
 
 Packaging Tools
 ---------------
@@ -243,29 +227,22 @@ Tools and utilities for the examination and maintenance of *update\_<span>\*</sp
 <span>KindleTool Binaries</span>  
 KindleTool both creates new and opens existing *update\_<span>\*</span>.bin* format packages. Both those of Amazon/Lab126 and those of Mobileread.
 
-<span>Release post:</span>  
-https://www.mobileread.com/forums/showthread.php?t=187880
+-   Release post: [KindleTool Release](https://www.mobileread.com/forums/showthread.php?t=187880)
 
-<span>LInux x86\_64:</span>  
-https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86\_64.zip
+-   LInux x86\_64: [KindleTool](https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86\_64.zip)
 
-<span>Status:</span>  
-Working, in-use
+-   Status: Working, in-use
 
-<span>Windows native 64bit:</span>  
-.
+-   Windows native 64bit: .
 
-<span>Status:</span>  
-Not yet available.
+-   Status: Not yet available.
 
 <span>Repackaging Script</span>  
 The script contains a table format listing of Mobileread update\_<span>\*</span>.bin packages.
 
-<span>Script:</span>  
-[mkpkgs batch script](https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip)
+-   Script: [mkpkgs batch script](https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip)
 
-<span>Status:</span>  
-Working, in use.
+-   Status: Working, in use.
 
 Historical Interest Only
 ------------------------
@@ -273,14 +250,11 @@ Historical Interest Only
 <span>Old factory images</span>  
 Not intended to be used, just things lying around and posted as possible information. Any or all of these may be corrupt.
 
-<span>Main system:</span>  
-[update\_main\_5.9.0.5.1-007](https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin)
+-   Main system: [update\_main\_5.9.0.5.1-007](https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin)
 
-<span>Main system:</span>  
-[update\_main\_5.9.0.5.1-008](https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin)
+-   Main system: [update\_main\_5.9.0.5.1-008](https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin)
 
-<span>Diag\_system:</span>  
-[update\_diags\_001.059](https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin)
+-   Diag\_system: [update\_diags\_001.059](https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin)
 
 KUAL Extensions
 ---------------
@@ -290,10 +264,8 @@ KUAL extensions typically are not provided in an update\_<span>\*</span>.bin nam
 <span>Kindle Terminal</span>  
 Provides an interactive, command line, terminal with on-screen keyboard.
 
-<span>Archive:</span>  
-[kTerm](https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip)
+-   Archive: [kTerm](https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip)
 
-<span>Status:</span>  
-Not tested.
+-   Status: Not tested.
 
 
