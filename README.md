@@ -178,17 +178,13 @@ Suggested
 <span>Rescue Pack</span>  
 Adds SSH server to Diags system and restores the detection of ENABLE\_DIAGS in the topmost level of USB storage.
 
-<span>Release post:</span>  
-[Rescue Pack for Paperwhite and Touch](https://www.mobileread.com/forums/showthread.php?t=195670)
+<span>Release post:</span> [Rescue Pack for Paperwhite and Touch](https://www.mobileread.com/forums/showthread.php?t=195670)
 
-<span>Install:</span>  
-[Rescue Pack install](https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin)
+<span>Install:</span> [Rescue Pack install](https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin)
 
-<span>Status:</span>  
-Tested, Broken, Do Not Use
+<span>Status:</span> Tested, Broken, Do Not Use
 
-<span>Uninstall:</span>  
-Never provided.
+<span>Uninstall:</span> Never provided.
 
 <span>Status:</span>  
 N/A
@@ -196,20 +192,15 @@ N/A
 <span>Coward’s Rescue Pack</span>  
 Optional add-on to the Rescue Pack. Provides control of Rescue Pack by detecting USB cable connection.
 
-<span>Release post:</span>  
-[Coward’s Rescue Pack, a Rescue Pack add-on](https://www.mobileread.com/forums/showthread.php?t=232507)
+<span>Release post:</span> [Coward’s Rescue Pack, a Rescue Pack add-on](https://www.mobileread.com/forums/showthread.php?t=232507)
 
-<span>Install:</span>  
-[Coward’s Rescue Pack install](https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin)
+<span>Install:</span> [Coward’s Rescue Pack install](https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.bin)
 
-<span>Status:</span>  
-Not tested.
+<span>Status:</span> Not tested.
 
-<span>Uninstall:</span>  
-[Coward’s Rescue Pack uninstall](https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin)
+<span>Uninstall:</span> [Coward’s Rescue Pack uninstall](https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax.bin)
 
-<span>Status:</span>  
-Not tested.
+<span>Status:</span> Not tested.
 
 Available
 ---------
@@ -217,23 +208,17 @@ Available
 <span>USB Networking</span>  
 Includes both ssh and telnet servers. Many bonus items also included. Note: The Amazon/Lab126 version may be included in some Factory Use firmware builds. Detail undetermined at this time.
 
-<span>Release post:</span>  
-[USB Networking](https://www.mobileread.com/forums/showthread.php?t=186645)
+<span>Release post:</span> [USB Networking](https://www.mobileread.com/forums/showthread.php?t=186645)
 
-<span>Install:</span>  
-[USB Networking install](https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin)
+<span>Install:</span> [USB Networking install](https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin)
 
-<span>Status:</span>  
-Tested, working with some problems
+<span>Status:</span> Tested, working with some problems
 
-<span>coplate:</span>  
-“stopping usbnetworking (with KUAL) crashes Kindle, requires a reboot”
+<span>coplate:</span> “stopping usbnetworking (with KUAL) crashes Kindle, requires a reboot”
 
-<span>Uninstall:</span>  
-[USB Networking uninstall](https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin])
+<span>Uninstall:</span> [USB Networking uninstall](https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin])
 
-<span>Status:</span>  
-Not tested.
+<span>Status:</span> Not tested.
 
 Packaging Tools
 ---------------
@@ -243,29 +228,22 @@ Tools and utilities for the examination and maintenance of *update\_<span>\*</sp
 <span>KindleTool Binaries</span>  
 KindleTool both creates new and opens existing *update\_<span>\*</span>.bin* format packages. Both those of Amazon/Lab126 and those of Mobileread.
 
-<span>Release post:</span>  
-https://www.mobileread.com/forums/showthread.php?t=187880
+<span>Release post:</span> [KindleTool Release](https://www.mobileread.com/forums/showthread.php?t=187880)
 
-<span>LInux x86\_64:</span>  
-https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86\_64.zip
+<span>LInux x86\_64:</span> [KindleTool](https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86\_64.zip)
 
-<span>Status:</span>  
-Working, in-use
+<span>Status:</span> Working, in-use
 
-<span>Windows native 64bit:</span>  
-.
+<span>Windows native 64bit:</span> .
 
-<span>Status:</span>  
-Not yet available.
+<span>Status:</span> Not yet available.
 
 <span>Repackaging Script</span>  
 The script contains a table format listing of Mobileread update\_<span>\*</span>.bin packages.
 
-<span>Script:</span>  
-[mkpkgs batch script](https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip)
+<span>Script:</span> [mkpkgs batch script](https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip)
 
-<span>Status:</span>  
-Working, in use.
+<span>Status:</span> Working, in use.
 
 Historical Interest Only
 ------------------------
@@ -273,14 +251,11 @@ Historical Interest Only
 <span>Old factory images</span>  
 Not intended to be used, just things lying around and posted as possible information. Any or all of these may be corrupt.
 
-<span>Main system:</span>  
-[update\_main\_5.9.0.5.1-007](https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin)
+<span>Main system:</span> [update\_main\_5.9.0.5.1-007](https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bin)
 
-<span>Main system:</span>  
-[update\_main\_5.9.0.5.1-008](https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin)
+<span>Main system:</span> [update\_main\_5.9.0.5.1-008](https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bin)
 
-<span>Diag\_system:</span>  
-[update\_diags\_001.059](https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin)
+<span>Diag\_system:</span> [update\_diags\_001.059](https://www.adrive.com/public/SaRXg2/update-J9-zelda_cognac-001.059-diags.bin)
 
 KUAL Extensions
 ---------------
@@ -290,10 +265,8 @@ KUAL extensions typically are not provided in an update\_<span>\*</span>.bin nam
 <span>Kindle Terminal</span>  
 Provides an interactive, command line, terminal with on-screen keyboard.
 
-<span>Archive:</span>  
-[kTerm](https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip)
+<span>Archive:</span> [kTerm](https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip)
 
-<span>Status:</span>  
-Not tested.
+<span>Status:</span> Not tested.
 
 
