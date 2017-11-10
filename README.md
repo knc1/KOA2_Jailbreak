@@ -58,7 +58,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
 
     <span>Yes it did appear:</span>  
     The device jail break is now installed, you can skip the installation of a *Factory Use Only* firmware build.  
-    Go to the installation of the Jailbreak Survival Code.
+    Go to the installation of the [Jailbreak Survival Code](#install-the-jailbreak-survival-code).
 
     <span>No it did not appear:</span>  
     To be certain, use your PC to look for it in the /documents folder. In this case you will have to install a *Factory Use Only* firmware build as described next.
@@ -66,7 +66,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
 Install a *Factory Use Only* firmware build
 ===========================================
 
-If the *JailBroken* document showed up on your Kindle when you did current firmware check above, you may skip to installing the Jailbreak Survival Code.
+If the *JailBroken* document showed up on your Kindle when you did current firmware check above, you may skip directly to [Jailbreak Survival Code](#install-the-jailbreak-survival-code)
 
 Replacing your *Customer Use* firmware build with a *Factory Use Only* firmware.
 --------------------------------------------------------------------------------
