@@ -105,7 +105,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
     ;installHtml
     The semi-colon is part of the command and the command is case sensitive.
 
-4.  \[enu:Did-you-have-1\]Did you have a *JailBroken* document appear on your Kindle?
+4.  Did you have a *JailBroken* document appear on your Kindle?
 
 <span>Yes it did appear:</span>  
 The device jail break is now installed, continue with the next section.
@@ -186,8 +186,7 @@ Adds SSH server to Diags system and restores the detection of ENABLE\_DIAGS in t
 
 <span>Uninstall:</span> Never provided.
 
-<span>Status:</span>  
-N/A
+<span>Status:</span> N/A
 
 <span>Coward’s Rescue Pack</span>  
 Optional add-on to the Rescue Pack. Provides control of Rescue Pack by detecting USB cable connection.
