@@ -78,6 +78,8 @@ Kindle KOA2 (Kindle Oasis, 9th generation, 2017)
 \end_layout
 
 \begin_layout Standard
+
+\noun on
 Not released for distribution - Experimental use only.
 \end_layout
 
@@ -161,12 +163,6 @@ Have special offers removed.
 \end_layout
 
 \begin_layout Section
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Check-current-firmware"
-
-\end_inset
-
 Check current firmware
 \end_layout
 
@@ -179,7 +175,7 @@ Note: Firmware 5.9.2 can not (yet) be jail broken.
 \end_layout
 
 \begin_layout Itemize
-Download 
+Download the 
 \begin_inset CommandInset href
 LatexCommand href
 name "Device Jail Break"
@@ -231,12 +227,6 @@ The semi-colon is part of the command and the command is case sensitive.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:Did-you-have"
-
-\end_inset
-
 Did you have a 
 \emph on
 JailBroken
@@ -244,102 +234,39 @@ JailBroken
  document appear on your Kindle?
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Yes
-\begin_inset space ~
-\end_inset
-
-it
-\begin_inset space ~
-\end_inset
-
-did
-\begin_inset space ~
-\end_inset
-
-appear: The device jail break is now installed, you can skip the installation
- of a 
+\begin_layout Itemize
+Yes it did appear: The device jail break is now installed, you can skip
+ the installation of a 
 \emph on
 Factory Use Only 
 \emph default
 firmware build.
- Continue at section 
+ Continue with the section: 
 \begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Install-Device-Jail"
+LatexCommand nameref
+reference "sec:Install-the-Jailbreak"
 
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Description
-No
-\begin_inset space ~
-\end_inset
-
-it
-\begin_inset space ~
-\end_inset
-
-did
-\begin_inset space ~
-\end_inset
-
-not
-\begin_inset space ~
-\end_inset
-
-appear: To be certain, use your PC to look for it in the /documents folder.
+\begin_layout Itemize
+No it did not appear: To be certain, use your PC to look for it in the /document
+s folder.
  In this case you will have to install a 
 \emph on
 Factory Use Only
 \emph default
- firmware build as described below.
+ firmware build as described next.
 \end_layout
 
-\end_deeper
 \begin_layout Section
 Install a 
 \emph on
 Factory Use Only
 \emph default
  firmware build
-\end_layout
-
-\begin_layout Standard
-If the 
-\emph on
-JailBroken 
-\emph default
-document showed up on your Kindle when you did step 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "enu:Did-you-have"
-
-\end_inset
-
- of section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Check-current-firmware"
-
-\end_inset
-
- above, you may skip this section.
-\end_layout
-
-\begin_layout Subsection
-Replace your 
-\emph on
-Customer Use
-\emph default
- firmware build with a 
-\emph on
-Factory Use Only
-\emph default
- firmware.
 \end_layout
 
 \begin_layout Standard
@@ -391,12 +318,6 @@ Do not panic.
 \end_layout
 
 \begin_layout Section
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Install-Device-Jail"
-
-\end_inset
-
 Install Device Jail Break
 \end_layout
 
@@ -405,7 +326,7 @@ Note: Customer firmware 5.9.2 can not (yet) be jail broken.
 \end_layout
 
 \begin_layout Itemize
-Download 
+Download the 
 \begin_inset CommandInset href
 LatexCommand href
 name "Device Jail Break"
@@ -457,12 +378,6 @@ The semi-colon is part of the command and the command is case sensitive.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset CommandInset label
-LatexCommand label
-name "enu:Did-you-have-1"
-
-\end_inset
-
 Did you have a 
 \emph on
 JailBroken
@@ -470,45 +385,32 @@ JailBroken
  document appear on your Kindle?
 \end_layout
 
-\begin_layout Description
-Yes
-\begin_inset space ~
-\end_inset
+\begin_layout Itemize
 
-it
-\begin_inset space ~
-\end_inset
-
-did
-\begin_inset space ~
-\end_inset
-
-appear: The device jail break is now installed, continue with the next section.
+\noun on
+Yes it did appear:
+\noun default
+ The device jail break is now installed, continue with the next section.
 \end_layout
 
-\begin_layout Description
-No
-\begin_inset space ~
-\end_inset
+\begin_layout Itemize
 
-it
-\begin_inset space ~
-\end_inset
-
-did
-\begin_inset space ~
-\end_inset
-
-not
-\begin_inset space ~
-\end_inset
-
-appear: To be certain, use your PC to look for it in the /documents folder.
+\noun on
+No it did not appear:
+\noun default
+ To be certain, use your PC to look for it in the /documents folder.
  In this case something unexpected has happened, contact the developers.
 \end_layout
 
 \begin_layout Section
-Install the Jailbreak Survial Code
+Install the Jailbreak Survival Code
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Install-the-Jailbreak"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -521,21 +423,24 @@ hotfix
 
 \begin_layout Standard
 This installs both the Bridge Code that auto-reinstalls the device jailbreak
- and it install the application keys required to run some of the add-in
+ and it installs the application keys required to run some of the add-in
  applications.
 \end_layout
 
-\begin_layout Standard
-Note: This step may have to be repeated after every change in registration
- status.
+\begin_layout Itemize
+
+\family sans
+Note:
+\family default
+ This step may have to be repeated after every change in registration status.
 \end_layout
 
 \begin_layout Enumerate
 Download the 
 \begin_inset CommandInset href
 LatexCommand href
-name "Jailbreak Survial Code"
-target "https://www.adrive.com/public/xpYGey/Update_jailbreak_hotfix_1.15_koa2.bin"
+name "Jailbreak Survival Code"
+target "https://www.adrive.com/public/Srz2x2/Update_jailbreak_hotfix_1.15_koa2.bin"
 
 \end_inset
 
@@ -645,21 +550,13 @@ Required
 With very few exceptions, these items are required.
 \end_layout
 
-\begin_layout Description
-KUAL
-\begin_inset space ~
-\end_inset
-
-Launcher Provides the application launcher menu.
+\begin_layout Itemize
+KUAL Launcher Provides the application launcher menu.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Release
-\begin_inset space ~
-\end_inset
-
-post: 
+Release post: 
 \begin_inset CommandInset href
 LatexCommand href
 name "Kindle Unified Application Launcher"
@@ -721,77 +618,41 @@ Status: Not Tested
 Suggested
 \end_layout
 
-\begin_layout Description
-Rescue
-\begin_inset space ~
-\end_inset
-
-Pack Adds SSH server to Diags system and restores the detection of ENABLE_DIAGS
- in the topmost level of USB storage.
+\begin_layout Itemize
+Rescue Pack Adds SSH server to Diags system and restores the detection of
+ ENABLE_DIAGS in the topmost level of USB storage.
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Release
-\begin_inset space ~
-\end_inset
-
-post: 
-\begin_inset CommandInset href
-LatexCommand href
-name "Rescue Pack for Paperwhite and Touch"
-target "https://www.mobileread.com/forums/showthread.php?t=195670"
-
-\end_inset
-
-
+\begin_layout Itemize
+Release post: .
 \end_layout
 
-\begin_layout Description
-Install: 
-\begin_inset CommandInset href
-LatexCommand href
-name "Rescue Pack install"
-target "https://www.adrive.com/public/Hkd8VF/Update_rp_20131220.N_install_koa2_nomax.bin"
-
-\end_inset
-
-
+\begin_layout Itemize
+Install: .
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Tested, Broken, Do Not Use
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Uninstall: Never provided.
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: N/A
 \end_layout
 
 \end_deeper
-\begin_layout Description
-Coward's
-\begin_inset space ~
-\end_inset
-
-Rescue
-\begin_inset space ~
-\end_inset
-
-Pack Optional add-on to the Rescue Pack.
+\begin_layout Itemize
+Coward's Rescue Pack An optional add-on to the Rescue Pack.
  Provides control of Rescue Pack by detecting USB cable connection.
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Release
-\begin_inset space ~
-\end_inset
-
-post: 
+\begin_layout Itemize
+Release post: 
 \begin_inset CommandInset href
 LatexCommand href
 name "Coward's Rescue Pack, a Rescue Pack add-on"
@@ -802,7 +663,7 @@ target "https://www.mobileread.com/forums/showthread.php?t=232507"
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Install: 
 \begin_inset CommandInset href
 LatexCommand href
@@ -814,11 +675,11 @@ target "https://www.adrive.com/public/g6WJSG/Update_crp_2.N_install_koa2_nomax.b
 
 \end_layout
 
-\begin_layout Description
-Status: Not tested.
+\begin_layout Itemize
+Status: Not usable, requires Rescue Pack
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Uninstall: 
 \begin_inset CommandInset href
 LatexCommand href
@@ -830,7 +691,7 @@ target "https://www.adrive.com/public/bSbTA2/Update_crp_2.N_uninstall_koa2_nomax
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Not tested.
 \end_layout
 
@@ -839,7 +700,7 @@ Status: Not tested.
 Available
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 USB
 \begin_inset space ~
 \end_inset
@@ -852,12 +713,8 @@ Networking Includes both ssh and telnet servers.
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Release
-\begin_inset space ~
-\end_inset
-
-post: 
+\begin_layout Itemize
+Release post: 
 \begin_inset CommandInset href
 LatexCommand href
 name "USB Networking"
@@ -868,7 +725,7 @@ target "https://www.mobileread.com/forums/showthread.php?t=186645"
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Install: 
 \begin_inset CommandInset href
 LatexCommand href
@@ -880,12 +737,12 @@ target "https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_ko
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Tested, working with some problems
 \end_layout
 
 \begin_deeper
-\begin_layout Description
+\begin_layout Itemize
 coplate: 
 \begin_inset Quotes eld
 \end_inset
@@ -898,7 +755,7 @@ stopping usbnetworking (with KUAL) crashes Kindle, requires a reboot
 \end_layout
 
 \end_deeper
-\begin_layout Description
+\begin_layout Itemize
 Uninstall: 
 \begin_inset CommandInset href
 LatexCommand href
@@ -910,7 +767,7 @@ target "https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Not tested.
 \end_layout
 
@@ -927,12 +784,8 @@ update_*.bin
  packages.
 \end_layout
 
-\begin_layout Description
-KindleTool
-\begin_inset space ~
-\end_inset
-
-Binaries KindleTool both creates new and opens existing 
+\begin_layout Itemize
+KindleTool Binaries KindleTool both creates new and opens existing 
 \emph on
 update_*.bin
 \emph default
@@ -941,51 +794,50 @@ update_*.bin
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Release
-\begin_inset space ~
+\begin_layout Itemize
+Release post: 
+\begin_inset CommandInset href
+LatexCommand href
+name "NiLuJe's KindleTool"
+target "https://www.mobileread.com/forums/showthread.php?t=187880"
+
 \end_inset
 
-post: https://www.mobileread.com/forums/showthread.php?t=187880
+
 \end_layout
 
-\begin_layout Description
-LInux
-\begin_inset space ~
+\begin_layout Itemize
+Linux x86_64: 
+\begin_inset CommandInset href
+LatexCommand href
+name "KindleTool Linux x86_64"
+target "https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86_64.zip"
+
 \end_inset
 
-x86_64: https://www.adrive.com/public/WkZAZR/KindleTool-v1.6.4.108-ge16765c-linux-x86
-_64.zip
+
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Working, in-use
 \end_layout
 
-\begin_layout Description
-Windows
-\begin_inset space ~
-\end_inset
-
-native
-\begin_inset space ~
-\end_inset
-
-64bit: .
+\begin_layout Itemize
+Windows native 64bit
+\noun on
+:
+\noun default
+ .
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Not yet available.
 \end_layout
 
 \end_deeper
-\begin_layout Description
-Repackaging
-\begin_inset space ~
-\end_inset
-
-Script The script contains a table format listing of Mobileread update_*.bin
- packages.
+\begin_layout Itemize
+Repackaging Script The script contains a table format listing of Mobileread
+ update_*.bin packages.
 \end_layout
 
 \begin_deeper
@@ -1010,27 +862,14 @@ Status: Working, in use.
 Historical Interest Only
 \end_layout
 
-\begin_layout Description
-Old
-\begin_inset space ~
-\end_inset
-
-factory
-\begin_inset space ~
-\end_inset
-
-images Not intended to be used, just things lying around and posted as possible
- information.
+\begin_layout Itemize
+Old factory images Not intended to be used but may have some forensic value.
  Any or all of these may be corrupt.
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Main
-\begin_inset space ~
-\end_inset
-
-system: 
+\begin_layout Itemize
+Main system: 
 \begin_inset CommandInset href
 LatexCommand href
 name "update_main_5.9.0.5.1-007"
@@ -1041,12 +880,8 @@ target "https://www.adrive.com/public/DTYvtt/update-J9.0.5.1-zelda_cognac-007.bi
 
 \end_layout
 
-\begin_layout Description
-Main
-\begin_inset space ~
-\end_inset
-
-system: 
+\begin_layout Itemize
+Main system: 
 \begin_inset CommandInset href
 LatexCommand href
 name "update_main_5.9.0.5.1-008"
@@ -1057,8 +892,12 @@ target "https://www.adrive.com/public/uqYyFZ/update-J9.0.5.1-zelda_cognac-008.bi
 
 \end_layout
 
-\begin_layout Description
-Diag_system: 
+\begin_layout Itemize
+Diag system:
+\noun on
+ 
+\noun default
+
 \begin_inset CommandInset href
 LatexCommand href
 name "update_diags_001.059"
@@ -1081,17 +920,32 @@ KUAL extensions typically are not provided in an update_*.bin name format
  level of USB storage.
 \end_layout
 
-\begin_layout Description
-Kindle
-\begin_inset space ~
-\end_inset
-
-Terminal Provides an interactive, command line, terminal with on-screen
- keyboard.
+\begin_layout Itemize
+Kindle Terminal
+\noun on
+ 
+\noun default
+Provides an interactive, command line, terminal with on-screen keyboard.
 \end_layout
 
 \begin_deeper
-\begin_layout Description
+\begin_layout Itemize
+Release Post:
+\noun on
+ 
+\noun default
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Terminal Emulator for Touchscreen Kindles"
+target "https://www.mobileread.com/forums/showthread.php?t=20279"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 Archive: 
 \begin_inset CommandInset href
 LatexCommand href
@@ -1103,7 +957,7 @@ target "https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip"
 
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 Status: Not tested.
 \end_layout
 
