@@ -57,7 +57,7 @@ Owners of <span><span style="font-variant:small-caps;">MacOS</span></span> syste
 4.  Did you have a *JailBroken* document appear on your Kindle?
 
 -   Yes it did appear: The device jail break is now installed, you can skip the installation of a *Factory Use Only* firmware build.  
-Continue with the section: [#Install-the-Jailbreak-Survival-Code](Install the Jailbreak Survival Code).
+Continue with the section: [Install the Jailbreak Survival Code](#install-the-jailbreak-survival-code).
 
 -   No it did not appear: To be certain, use your PC to look for it in the /documents folder.  
 In this case you will have to install a *Factory Use Only* firmware build as described next.
