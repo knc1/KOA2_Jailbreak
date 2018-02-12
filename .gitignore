@@ -4,6 +4,9 @@
 # Backup files
 *~
 
+# Working files
+*.js
+
 # Object files
 *.o
 *.ko

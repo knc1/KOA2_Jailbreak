@@ -1,0 +1,120 @@
+<h1 id="firmware-versions">Firmware versions</h1>
+<p>The process described here applies to only two firmware versions.</p>
+<p>If the Kindle has either of these versions installed when first taken out of the box:</p>
+<ul>
+<li><p>5.9.0.5.1</p></li>
+<li><p>5.9.2.0.1</p></li>
+</ul>
+<p>Then this process should work.</p>
+<h1 id="highly-recommended">Highly recommended</h1>
+<p>To retain control of the Kindle firmware version, in the topmost visible level of USB storage, add the OTA blocking directory name. The blocking directory name is:<br />
+<em>update.bin.tmp.partial</em><br />
+Use that exact name, no additional extension.</p>
+<p>There is no guarantee that this will block the download of an OTA update.</p>
+<p>There have not been any firmware versions reported (yet) that can over-ride this blocking.</p>
+<p>It is possible that Amazon/Lab126 will change this situation at any time, without notice.</p>
+<h1 id="recommended">Recommended</h1>
+<p>The following changes are all in support of recovering the Kindle should start-up problems occur.</p>
+<p>Each can prevent the export of USB storage until a touch screen action is taken. Most start-up problems occur before the touch screen is up and working.</p>
+<ul>
+<li><p>Register the Kindle.</p></li>
+<li><p>Remove any passcode protection.</p></li>
+<li><p>Remove any parental controls.</p></li>
+<li><p>Have special offers removed.</p></li>
+</ul>
+<h1 id="install-a-factory-use-only-firmware-build">Install a <em>Factory Use Only</em> firmware build</h1>
+<p>The firmware version numbers before and after this step are not significant.</p>
+<p>The use of the word <em>Update</em> means the label on the button in the settings menu, it does not describe the action performed.</p>
+<ol>
+<li><p>Download the firmware image that was intended to only be used on the factory production line: <a href="https://www.adrive.com/public/RyfAaK/update_kindle_oasis_9th_factory_5.9.0.6.bin">Factory-5.9.0.6</a>.</p></li>
+<li><p>md5sum: 18624db8c1838ec2b5b8bfb3406ac041</p></li>
+<li><p>Place in the topmost visible level of USB storage.</p></li>
+<li><p>Remove USB cable.</p></li>
+<li><p>Home -&gt; Menu -&gt; Settings -&gt; Menu -&gt; Update (Your Kindle - UYK)</p></li>
+<li><p>Wait.<br />
+Do not panic. These factory image package may take as long as 5 minutes to install.</p></li>
+</ol>
+<h1 id="install-device-jail-break">Install Device Jail Break</h1>
+<p>Customer firmware versions other than the two listed above can not (yet) be jail broken.</p>
+<ul>
+<li><p>Download the <a href="https://www.adrive.com/public/U3AVtU/main-htmlviewer.tar.gz">Device Jail Break</a></p></li>
+</ul>
+<p>Do not let your PC open the archive or otherwise convert it to a <em>safe</em> archive. The archive content structure makes it a tar bomb, it is suppose to be a tar bomb, that is what makes it work. Owners of <span><span style="font-variant: small-caps;">MacOS</span></span> systems should be aware that the default settings will open and convert this archive to a <em>safe</em> archive, which prevents it from working as intended.</p>
+<ol>
+<li><p>md5sum: 8d4ef0528bc1d72576b890a72840780a<br />
+This value will match if the download was without error and if your PC has tried to safely re-pack it.</p></li>
+<li><p>Place in topmost visible level of USB storage.</p></li>
+<li><p>Safely remove the USB cable.</p></li>
+<li><p>In the search bar of the home screen, enter:<br />
+;installHtml<br />
+The semi-colon is part of the command and the command is case sensitive.</p></li>
+<li><p>Did you have a <em>JailBroken</em> document appear on your Kindle?</p></li>
+</ol>
+<ul>
+<li><p><span><span style="font-variant: small-caps;">Yes it did appear:</span></span> The device jail break is now installed, continue with the next section.</p></li>
+<li><p><span><span style="font-variant: small-caps;">No it did not appear:</span></span> To be certain, use your PC to look for it in the /documents folder. In this case something unexpected has happened, contact the developers.</p></li>
+</ul>
+<h1 id="install-the-jailbreak-survival-code">Install the Jailbreak Survival Code</h1>
+<p>This package has also been known as the <em>hotfix</em> package.</p>
+<p>This installs both the Bridge Code that auto-reinstalls the device jailbreak and it installs the application keys required to run some of the add-in applications.</p>
+<ul>
+<li><p>This step may have to be repeated after every change in registration status.</p></li>
+</ul>
+<ol>
+<li><p>Download the <a href="https://www.adrive.com/public/Srz2x2/Update_jailbreak_hotfix_1.15_koa2.bin">Jailbreak Survival Code</a></p></li>
+<li><p>md5sum: 19857c59d350470afff27f4249be8bac</p></li>
+<li><p>Place in the topmost visible level of USB storage.</p></li>
+<li><p>Safely remove the USB cable.</p></li>
+<li><p>Home -&gt; Menu -&gt; Settings -&gt; Menu -&gt; Update (Your Kindle - UYK)</p></li>
+<li><p>Watch the screen while waiting.<br />
+The wait should only be that involved in any package installation.</p></li>
+</ol>
+<h1 id="notice">Notice</h1>
+<p>Any other <em>update_<span>*</span>.bin</em> name format package used <span><span style="font-variant: small-caps;">must</span></span> be re-installed after an Amazon update.</p>
+<p>Only the <em>Device Jail Break</em> and components of the <em>Jail Break Survival Code</em> are auto-reinstalled.</p>
+<p>In the usual case, KUAL extensions do not need to be re-installed, but if anything seems to be broken, re-install it.</p>
+<h1 id="experimental-koa2-packages">Experimental KOA2 Packages</h1>
+<p>All of these packages are built to install using the UYK (Update Your Kindle) menu entry.</p>
+<p>The Mobileread Package Installer (MrPI) is not required for installing these packages.</p>
+<h2 id="available">Available</h2>
+<ul>
+<li><p>USB Networking Includes both ssh and telnet servers. Many bonus items also included. Note: Without an application launcher (KUAL), you will have to use the ;un searchbar command to toggle between USBnetworking and USBmass storage modes.</p>
+<ul>
+<li><p>Release post: <a href="https://www.mobileread.com/forums/showthread.php?t=186645">USB Networking</a></p></li>
+<li><p>Install: <a href="https://www.adrive.com/public/DhYefd/Update_usbnet_0.21.N_install_mx7_koa2_nomax.bin">USB Networking install</a></p></li>
+<li><p>Status: Tested, working.</p></li>
+<li><p>Uninstall: <a href="https://www.adrive.com/public/JVtudU/Update_usbnet_0.21.N_uninstall_koa2_nomax.bin]">USB Networking uninstall</a></p></li>
+<li><p>Status: Not tested.</p></li>
+</ul></li>
+</ul>
+<h2 id="packaging-tools">Packaging Tools</h2>
+<p>Tools and utilities for the examination and maintenance of <em>update_<span>*</span>.bin</em> packages.</p>
+<ul>
+<li><p>KindleTool Binaries KindleTool both creates new and opens existing <em>update_<span>*</span>.bin</em> format packages. Both those of Amazon/Lab126 and those of Mobileread.</p>
+<ul>
+<li><p>Release post: <a href="https://www.mobileread.com/forums/showthread.php?t=187880">NiLuJe’s KindleTool</a></p></li>
+<li><p>Current builds: <a href="https://www.mobileread.com/forums/showthread.php?t=225030">KindleTool for Linux, MacOS and Windows</a></p></li>
+<li><p>Status: Working, in-use</p></li>
+</ul></li>
+<li><p>Repackaging Script The script contains a table format listing of Mobileread update_<span>*</span>.bin packages.</p>
+<dl>
+<dt><span>Script:</span></dt>
+<dd><p><a href="https://www.adrive.com/public/mZkvMb/mkpkgs.sh.zip">mkpkgs batch script</a></p>
+</dd>
+<dt><span>Status:</span></dt>
+<dd><p>Working, in use.</p>
+</dd>
+</dl></li>
+</ul>
+<h2 id="kual-extensions">KUAL Extensions</h2>
+<p>Since a usable version of KUAL does not exist, KUAL extensions must be started using the searchbar command: ;log runme along with a custom script in USB storage.</p>
+<p>A collection of “RUNME.sh” scripts is being made in this thread: <a href="https://www.mobileread.com/forums/showthread.php?t=292382">Collection of runme scripts</a></p>
+<ul>
+<li><p>Kindle Terminal<span> <span style="font-variant: small-caps;"></span> </span>Provides an interactive, command line, terminal with on-screen keyboard.</p>
+<ul>
+<li><p>Release Post:<span> <span style="font-variant: small-caps;"></span> </span><a href="https://www.mobileread.com/forums/showthread.php?t=20279">Terminal Emulator for Touchscreen Kindles</a></p></li>
+<li><p>Archive: <a href="https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip">kTerm</a></p></li>
+<li><p>md5sum: 5f943d7928d6fa206514241a7f245081</p></li>
+<li><p>Status: A working runme script has been contributed.</p></li>
+</ul></li>
+</ul>
