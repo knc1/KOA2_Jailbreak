@@ -3,7 +3,7 @@
 <p>If the Kindle has either of these versions installed when first taken out of the box:</p>
 <ul>
 <li><p>5.9.0.5.1</p></li>
-<li><p>5.9.2.0.1</p></li>
+<li><p>5.9.0.6</p></li>
 </ul>
 <p>Then this process should work.</p>
 <h1 id="highly-recommended">Highly recommended</h1>
@@ -32,7 +32,7 @@ Use that exact name, no additional extension.</p>
 <li><p>Remove USB cable.</p></li>
 <li><p>Home -&gt; Menu -&gt; Settings -&gt; Menu -&gt; Update (Your Kindle - UYK)</p></li>
 <li><p>Wait.<br />
-Do not panic. These factory image package may take as long as 5 minutes to install.</p></li>
+Do not panic. This factory image package may take as long as 5 minutes to install.</p></li>
 </ol>
 <h1 id="install-device-jail-break">Install Device Jail Break</h1>
 <p>Customer firmware versions other than the two listed above can not (yet) be jail broken.</p>
@@ -42,7 +42,7 @@ Do not panic. These factory image package may take as long as 5 minutes to insta
 <p>Do not let your PC open the archive or otherwise convert it to a <em>safe</em> archive. The archive content structure makes it a tar bomb, it is suppose to be a tar bomb, that is what makes it work. Owners of <span><span style="font-variant: small-caps;">MacOS</span></span> systems should be aware that the default settings will open and convert this archive to a <em>safe</em> archive, which prevents it from working as intended.</p>
 <ol>
 <li><p>md5sum: 8d4ef0528bc1d72576b890a72840780a<br />
-This value will match if the download was without error and if your PC has tried to safely re-pack it.</p></li>
+This value will match if the download was without error and if your PC has not tried to safely re-pack it.</p></li>
 <li><p>Place in topmost visible level of USB storage.</p></li>
 <li><p>Safely remove the USB cable.</p></li>
 <li><p>In the search bar of the home screen, enter:<br />
@@ -69,6 +69,13 @@ The semi-colon is part of the command and the command is case sensitive.</p></li
 <li><p>Watch the screen while waiting.<br />
 The wait should only be that involved in any package installation.</p></li>
 </ol>
+<h1 id="update-to-consumer-firmware">Update to consumer firmware</h1>
+<p>The currently posted Oasis-2 firmware versions by Amazon are:</p>
+<ul>
+<li><p><a href="https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.bin">KOA2_5.9.2</a></p></li>
+<li><p><a href="https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.0.1.bin">KOA2_5.9.2.0.1</a></p></li>
+<li><p><a href="https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.4.bin">KOA2_5.9.4</a></p></li>
+</ul>
 <h1 id="notice">Notice</h1>
 <p>Any other <em>update_<span>*</span>.bin</em> name format package used <span><span style="font-variant: small-caps;">must</span></span> be re-installed after an Amazon update.</p>
 <p>Only the <em>Device Jail Break</em> and components of the <em>Jail Break Survival Code</em> are auto-reinstalled.</p>
@@ -112,7 +119,8 @@ The wait should only be that involved in any package installation.</p></li>
 <ul>
 <li><p>Kindle Terminal<span> <span style="font-variant: small-caps;"></span> </span>Provides an interactive, command line, terminal with on-screen keyboard.</p>
 <ul>
-<li><p>Release Post:<span> <span style="font-variant: small-caps;"></span> </span><a href="https://www.mobileread.com/forums/showthread.php?t=20279">Terminal Emulator for Touchscreen Kindles</a></p></li>
+<li><p>Release Post:<span> <span style="font-variant: small-caps;"></span> </span><a href="https://www.mobileread.com/forums/showthread.php?t=179286">Terminal Emulator for Touchscreen Kindles</a></p></li>
+<li><p>Public repository: <a href="https://github.com/bfabiszewski/kterm">Source code repository</a></p></li>
 <li><p>Archive: <a href="https://www.adrive.com/public/P46YNY/kterm-kindle-2.4.zip">kTerm</a></p></li>
 <li><p>md5sum: 5f943d7928d6fa206514241a7f245081</p></li>
 <li><p>Status: A working runme script has been contributed.</p></li>

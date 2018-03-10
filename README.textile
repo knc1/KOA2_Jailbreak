@@ -5,7 +5,7 @@ The process described here applies to only two firmware versions.
 If the Kindle has either of these versions installed when first taken out of the box:
 
 * 5.9.0.5.1
-* 5.9.2.0.1
+* 5.9.0.6
 
 Then this process should work.
 
@@ -81,6 +81,14 @@ This installs both the Bridge Code that auto&#45;reinstalls the device jailbreak
 # Home &#45;&gt; Menu &#45;&gt; Settings &#45;&gt; Menu &#45;&gt; Update (Your Kindle &#45; UYK)
 # Watch the screen while waiting.
 The wait should only be that involved in any package installation.
+
+h1(#update-to-consumer-firmware). Update to consumer firmware
+
+The currently posted Oasis&#45;2 firmware versions by Amazon are:
+
+* "KOA2&#95;5.9.2":https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.bin
+* "KOA2&#95;5.9.2.0.1":https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.0.1.bin
+* "KOA2&#95;5.9.4":https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.4.bin
 
 h1(#notice). Notice
 

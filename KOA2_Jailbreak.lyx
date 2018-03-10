@@ -77,6 +77,10 @@
 Kindle KOA2 (Kindle Oasis, 9th generation, 2017)
 \end_layout
 
+\begin_layout Date
+03/10/2018
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
@@ -104,7 +108,7 @@ If the Kindle has either of these versions installed when first taken out
 \end_layout
 
 \begin_layout Itemize
-5.9.2.0.1
+5.9.0.6
 \end_layout
 
 \begin_layout Standard
@@ -395,6 +399,47 @@ Watch the screen while waiting.
 \end_inset
 
 The wait should only be that involved in any package installation.
+\end_layout
+
+\begin_layout Section
+Update to consumer firmware
+\end_layout
+
+\begin_layout Standard
+The currently posted Oasis-2 firmware versions by Amazon are:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "KOA2_5.9.2"
+target "https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.bin"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "KOA2_5.9.2.0.1"
+target "https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.2.0.1.bin"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "KOA2_5.9.4"
+target "https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_oasis_5.9.4.bin"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
